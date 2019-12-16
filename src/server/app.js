@@ -8,7 +8,7 @@ var randomNumber = require('./randomNumber');
 
 var dev = process.env.NODE_ENV !== 'production';
 console.log(dev);
-var port = dev ? 3000 : process.env.port;
+var port = dev ? 3000 : process.env.PORT;
 
 app.use(express.static(path.join(__dirname, '../../build')));
 
