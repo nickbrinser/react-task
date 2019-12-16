@@ -11,7 +11,7 @@ var port = process.env.PORT || 3001;
 app.use(express.static(path.join(__dirname, '../../build')));
 
 app.get('/', function (req, res) {
-  res.send('Use socket.io-client to connect to the server...');
+  res.sendFile(__dirname + './index.html');
 });
 
 io.on('connection', function (socket) {
