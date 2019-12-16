@@ -8,7 +8,7 @@ import { ReactComponent as Loading } from './assets/graph-visual.svg'
 
 import './App.css'
 
-const socket = socketIOClient('http://127.0.0.1:3000')
+const socket = socketIOClient()
 
 function App () {
   const [response, setResponse] = useState(false)
