@@ -19,9 +19,9 @@
     "socket.io-mock": "^1.2.3",
     "standard": "^14.3.1"
   },
-  "scripts": {
+  "scripts": {    
+    "start": "NODE_ENV=production react-scripts start",
     "dev": "node src/server/app.js",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
