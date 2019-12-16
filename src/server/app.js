@@ -6,11 +6,12 @@ var io = require('socket.io')(http);
 
 var randomNumber = require('./randomNumber');
 
-var port = process.env.PORT || 3001;
+var dev = process.env.NODE_ENV !== 'production';
+var port = dev ? 3000 : process.NODE_ENV.port;
 
 app.use(express.static(path.join(__dirname, '../../build')));
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res, next) {
   res.sendFile(__dirname + './index.html');
 });
 
