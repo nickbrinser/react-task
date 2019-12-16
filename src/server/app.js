@@ -7,7 +7,8 @@ var io = require('socket.io')(http);
 var randomNumber = require('./randomNumber');
 
 var dev = process.env.NODE_ENV !== 'production';
-var port = dev ? 3000 : process.NODE_ENV.port;
+console.log(dev);
+var port = dev ? 3000 : process.env.port;
 
 app.use(express.static(path.join(__dirname, '../../build')));
 
