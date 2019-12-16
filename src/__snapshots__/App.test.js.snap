@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HistChart /> with empty dataset should match the snapshot 1`] = `"<div style=\\"width:100%;height:100%\\"></div>"`;
+
+exports[`<LineChart /> with empty dataset should match the snapshot 1`] = `"<canvas height=\\"150\\" width=\\"300\\"></canvas>"`;

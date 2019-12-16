@@ -1,0 +1,14 @@
+.alert-threshold {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    background-color: rgb(35, 37, 50);
+    color: rgb(202, 230, 151);
+    text-align: center;   
+  }
+  

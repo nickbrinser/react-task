@@ -1,0 +1,57 @@
+{
+  "name": "challenge-proj",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@data-ui/histogram": "0.0.84",
+    "@data-ui/theme": "0.0.84",
+    "chart.js": "^2.9.3",
+    "d3-array": "^2.4.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "express": "^4.17.1",
+    "react": "^16.11.0",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "semantic-ui-react": "^0.88.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "socket.io-mock": "^1.2.3",
+    "standard": "^14.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "react-test-renderer": "^16.12.0"
+  },
+  "engines": {
+    "node" : "10.16.3"
+  }
+}
