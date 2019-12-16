@@ -6,7 +6,7 @@
 
 The sections below will provide details of the project and the technologies used.
 
-###Tech Stack
+### Tech Stack
 
 #### React.js (https://reactjs.org/)
 
