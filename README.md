@@ -1,6 +1,6 @@
 ## Random Number Data Visualizations
 
-[Live Demo] (https://git.heroku.com/react-socket-client.git)
+[Live Demo](https://git.heroku.com/react-socket-client.git)
 
 ## Project Overview
 
