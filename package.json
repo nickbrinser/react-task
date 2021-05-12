@@ -5,7 +5,7 @@
   "dependencies": {
     "@data-ui/histogram": "0.0.84",
     "@data-ui/theme": "0.0.84",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "d3-array": "^2.4.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "express": "^4.17.1",
